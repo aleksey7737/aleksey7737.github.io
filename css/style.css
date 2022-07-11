@@ -1,0 +1,281 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    background: #212121;
+    height: 50px;
+}
+.menu_block {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 13px 70px;
+    }
+.menu_text {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.second_menu {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    height: 84px;
+    width: 100%;
+    padding: 15px 0;
+
+}
+.logo_button {
+    display: block;
+}
+.logo_dscr {
+    font-size: 13px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.telephone_dscr {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.telephone_button {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.second_menu_button {
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.promo {
+    background: url('../img/bg/uber_bg.png') center center/cover no-repeat;
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+}
+.promo_head {
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.promo_head_second {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 16px 0 0 0;
+}
+.promo_descr {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 34px;
+}
+.promo_button {
+    display: block;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    margin: 116px auto 0;
+}
+.work {
+    min-height: 850px;
+}
+.work_button {
+    display: block;
+    margin: 16px auto 0;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.head_work {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 35px;
+}
+.work_item_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    border-radius: 100%;
+    background: #1EACC7;
+    margin-right: 26px;
+}
+.work_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.work_item_src {
+    width: 343px;
+}
+.src_title {
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+.src_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+.first_mobile {
+    padding: 50px 0 80px 0;
+    min-height: 864px;
+    background: url('../img/bg/work_bg.jpg') center center/cover no-repeat;
+}
+.first_mobile .container .row .mobile_item {
+    position: relative;
+    padding: 82.5px 0 34px 0;
+    margin: 0 auto;
+    margin-top: 19px;
+    width: 320px;
+    height: 280px;
+    background: url('../img/icon/telephone/telephone_image.jpg') center center/cover no-repeat;;
+}
+.mobile_item_button {
+    position: absolute;
+    display: flex;
+    margin: 135px 146px;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    background: #000000;
+    border-radius: 100%;
+}
+.mobile_item_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mobile_button {
+    display: block;
+    margin: auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mobile_title {
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: 33px;
+}
+.mobile_dscr {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 10px;
+}
+.car {
+    min-height: 900px;
+}
+.car_background {
+    padding-top: 55px;
+    background: black;
+    height: 500px;
+}
+.car_button {
+    margin: 0 auto;
+    display: block;
+    width: 115px;
+    height: 27px;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #070716;
+}
+.car_button:hover {
+    margin: 0 auto;
+    display: block;
+    width: 115px;
+    height: 27px;
+    background: #664141;
+    font-weight: 400;
+    font-size: 11px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfcfc;
+.car_title {
+    margin-top: 36px;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.car_dscr {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.car_img {
+    display: block;
+    margin: 54px auto 0;
+}
+.car_text {
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #222222;
+}
